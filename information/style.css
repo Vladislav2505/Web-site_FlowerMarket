@@ -1,0 +1,161 @@
+body {
+	font-family: Century Gothic;
+	box-sizing: border-box;
+	margin: 0;
+	min-width: 1200px; 
+}
+
+button {
+	cursor: pointer;
+}
+
+.head {
+	box-shadow: 0px 5px 15px grey;
+}
+
+.env p {
+	margin: 0;
+	width: fit-content;
+}
+
+.head_up {
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid #046a38;
+	background-color: #f4f4f4;
+}
+
+.head_up div {
+	margin: 0 20px;
+	padding: 20px;
+}
+
+.head_input {
+	margin-top: 30px;
+	border: 1px solid grey;
+	border-radius: 15px;
+	outline: none;
+	width: 200px;
+	height: 25px;
+}
+
+.head_image img{
+	margin-top: 20px;
+}
+
+.head_dawn {
+	border-bottom: 1px solid white;
+}
+
+.head_dawn ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	justify-content: center;
+}
+
+.head_dawn a {
+	text-decoration: none;
+	color: #605f5f;
+}
+
+.head_dawn li {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 55px;
+}
+
+.head_dawn a:hover {
+	color: green;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
+.text {
+	max-width: 50%;
+	text-align: justify;
+}
+
+.text_1 {
+	max-width: 50%;
+	text-align: justify;
+}
+
+.text_3 {
+	max-width: 50%;
+	text-align: justify;
+}
+
+.text_3 li {
+	font-size: 20px;
+}
+
+.text_main p {
+	line-height: 30px;
+	font-size: 20px;
+}
+
+
+.text_main div {
+	margin: 100px auto 100px auto;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+.logo_dawn {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.menu {
+	border: 1px solid #9f7cda;
+	background-color: #9f7cda;
+	padding: 10px 0;
+	margin-top: 25px;
+}
+
+.menu ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	justify-content: center;
+}
+
+.menu a {
+	text-decoration: none;
+	color: white;
+}
+
+.menu li {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 40px;
+}
+
+.menu a:hover {
+	color: green;
+}
+
+.menu_dawn {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	background-color: #f4f4f4;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+@media (max-width: 1200px) {
+
+	.adress {
+		display: none;
+	}
+
+	.number_image {
+		display: none;
+	}
+
+	.menu_dawn_middle {
+		justify-content: center;
+	}
+}
